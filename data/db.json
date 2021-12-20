@@ -1,0 +1,9 @@
+{
+  "trips": [
+    { "title": "Overnight visit to the museum", "price": "$120" },
+    { "title": "Boat Cruise", "price": "$235" },
+    { "title": "City center tour and meal", "price": "$75" },
+    { "title": "Welcome bus ride and snack", "price": "$40" }
+  ],
+  "posts": []
+}
