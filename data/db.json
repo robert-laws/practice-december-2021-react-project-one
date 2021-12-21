@@ -1,9 +1,24 @@
 {
   "trips": [
-    { "id": "1", "title": "Overnight visit to the museum", "price": "$120" },
-    { "id": "2", "title": "Boat Cruise", "price": "$235" },
-    { "id": "3", "title": "City center tour and meal", "price": "$75" },
-    { "id": "4", "title": "Welcome bus ride and snack", "price": "$40" }
+    {
+      "id": "1",
+      "title": "Overnight visit to the museum",
+      "price": "$120",
+      "loc": "america"
+    },
+    { "id": "2", "title": "Boat Cruise", "price": "$235", "loc": "europe" },
+    {
+      "id": "3",
+      "title": "City center tour and meal",
+      "price": "$75",
+      "loc": "america"
+    },
+    {
+      "id": "4",
+      "title": "Welcome bus ride and snack",
+      "price": "$40",
+      "loc": "europe"
+    }
   ],
   "posts": []
 }

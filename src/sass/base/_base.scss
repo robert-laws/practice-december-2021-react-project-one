@@ -4,7 +4,6 @@
   h1 {
     font-size: 2em;
     margin: 0;
-    color: green;
   }
 }
 
@@ -30,5 +29,18 @@ ol {
     border-radius: 5px;
     list-style-type: none;
     margin: 20px 0;
+  }
+}
+
+.filters {
+  button {
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    background-color: crimson;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
   }
 }
