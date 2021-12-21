@@ -4,7 +4,7 @@ import { useFetch } from '../hooks/useFetch';
 const TripList = () => {
   // const [trips, setTrips] = useState([]);
   const [url, setUrl] = useState('http://localhost:3001/trips');
-  const { data } = useFetch(url);
+  const { data, isPending } = useFetch(url);
 
   // const getTrips = useCallback(async () => {
   //   const response = await fetch(url);
@@ -15,6 +15,7 @@ const TripList = () => {
   return (
     <div className='trip-list'>
       <h2>Trip List</h2>
+      {isPending && <p>Loading...</p>}
       <ul>
         {data?.map((trip) => (
           <li key={trip.id}>
